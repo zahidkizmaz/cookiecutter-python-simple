@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "cookiecutter-python-simple"
+version = "0.1.0"
+description = "Very simple python project template"
+authors = ["Zahid Kizmaz <tech@zahid.rocks>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.0"
+cookiecutter = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+pre-commit = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+preview = true
+line-length = 88
+target-version = ['py312']
