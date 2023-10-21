@@ -1,0 +1,16 @@
+{
+  "project_name": "Python Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "author_name": "Zahid Kizmaz",
+  "email": "tech@zahid.rocks",
+  "version": "0.1.0",
+  "description": "My Simple Python Project",
+  "python_version": "3.12.0",
+  "use_tool_versions": true,
+  "license": [
+    "MIT",
+    "BSD-3",
+    "Apache Software License 2.0",
+    "GNU General Public License v3.0"
+  ]
+}
