@@ -2,16 +2,16 @@
 
 This is a simple python project cookiecutter template suitable for creating ready to code project folder.
 
-
 ### Features
 
 - Python [3.12](https://docs.python.org/release/3.12.0/)
 - Package manager: [poetry](https://github.com/python-poetry/poetry)
 - Formatters: [black](https://github.com/psf/black) and [ruff](https://github.com/astral-sh/ruff)
 - Linters: [ruff](https://github.com/astral-sh/ruff)
-- Type checked: [mypy](https://github.com/python/mypy)
-- Standardizing the spaces and tabs: [editorconfig](https://editorconfig.org/)
+- Type checker: [mypy](https://github.com/python/mypy)
+- Standardizing spaces and tabs: [editorconfig](https://editorconfig.org/)
 - Default integration with [pre-commit](https://github.com/pre-commit/pre-commit)
+- Optional integration with [asdf](https://github.com/asdf-vm/asdf) and [rtx](https://github.com/jdx/rtx) via `.tool_versions` file
 
 ### Quick Start
 
@@ -39,9 +39,8 @@ Cookiecutter prompts you for information regarding your project.
   Choose from [1/2/3/4] (1):
 ```
 
-That's it! Your simple project is ready to start coding.
-```bash
-$ tree -a python_project
+That's it! Your simple python project is ready for coding.
+```no-highlight
 python_project
 ├── .editorconfig
 ├── .gitignore
