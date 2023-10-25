@@ -9,7 +9,6 @@ readme = "README.md"
 python = "{{ cookiecutter.python_version }}"
 
 [tool.poetry.group.dev.dependencies]
-black = "*"
 mypy = "*"
 pre-commit = "*"
 pytest = "*"
@@ -52,11 +51,6 @@ ignore = [ "D1" ] # pydocstyle missing docs
 
 [tool.ruff.pydocstyle]
 convention = "google"
-
-[tool.black]
-preview = true
-line-length = 88
-target-version = ['py312']
 
 [tool.mypy]
 strict = true
