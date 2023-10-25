@@ -4,7 +4,8 @@ This is a simple python project cookiecutter template suitable for creating read
 
 ### Features
 
-- Python [3.12](https://docs.python.org/release/3.12.0/)
+- Python: [3.12](https://docs.python.org/release/3.12.0/)
+- Testing: [pytest](https://github.com/pytest-dev/pytest/)
 - Package manager: [poetry](https://github.com/python-poetry/poetry)
 - Formatters: [black](https://github.com/psf/black) and [ruff](https://github.com/astral-sh/ruff)
 - Linters: [ruff](https://github.com/astral-sh/ruff)
