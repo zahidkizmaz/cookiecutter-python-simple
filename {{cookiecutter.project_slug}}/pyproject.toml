@@ -9,7 +9,6 @@ readme = "README.md"
 python = "{{ cookiecutter.python_version }}"
 
 [tool.poetry.group.dev.dependencies]
-black = "*"
 mypy = "*"
 pre-commit = "*"
 pytest = "*"
@@ -29,11 +28,15 @@ select = [
 	"B",   # flake8-bugbear
 	"C4",  # flake8-comprehensions
 	"D",   # pydocstyle
+	"DTZ", # flake8-datetimez
 	"E",   # pycodestyle errors
 	"ERA", # eradicate
 	"F",   # pyflakes
+	"FURB",# refurb
 	"I",   # isort
+	"LOG", # flake8-logging
 	"N",   # pep8-naming
+	"PERF",# perflint
 	"PIE", # flake8-pie
 	"PL",  # pylint
 	"PT",  # flake8-pytest-style
@@ -52,11 +55,6 @@ ignore = [ "D1" ] # pydocstyle missing docs
 
 [tool.ruff.pydocstyle]
 convention = "google"
-
-[tool.black]
-preview = true
-line-length = 88
-target-version = ['py312']
 
 [tool.mypy]
 strict = true
