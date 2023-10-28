@@ -23,15 +23,16 @@ $ cookiecutter https://github.com/zahidkizmaz/cookiecutter-python-simple
 
 Cookiecutter prompts you for information regarding your project.
 ```no-highlight
-[1/9] project_name (Python Project):
-[2/9] project_slug (python_project):
-[3/9] author_name (Zahid Kizmaz):
-[4/9] email (tech@zahid.rocks):
-[5/9] version (0.1.0):
-[6/9] description (My Simple Python Project):
-[7/9] python_version (3.12.0):
-[8/9] use_tool_versions [y/n] (y):
-[9/9] Select license
+[1/10] project_name (Python Project):
+[2/10] project_slug (python_project):
+[3/10] author_name (Zahid Kizmaz):
+[4/10] email (tech@zahid.rocks):
+[5/10] version (0.1.0):
+[6/10] description (My Simple Python Project):
+[7/10] python_version (3.12.0):
+[8/10] use_tool_versions [y/n] (y):
+[9/10] use_github_actions [y/n] (y):
+[10/10] Select license
   1 - MIT
   2 - BSD-3
   3 - Apache Software License 2.0
@@ -43,6 +44,10 @@ That's it! Your simple python project is ready for coding.
 ```no-highlight
 python_project
 ├── .editorconfig
+├── .github
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   └── workflows
+│       └── ci.yml
 ├── .gitignore
 ├── .pre-commit-config.yaml
 ├── .tool-versions
