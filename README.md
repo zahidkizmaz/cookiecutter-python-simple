@@ -12,6 +12,7 @@ This is a simple python project cookiecutter template suitable for creating read
 - Standardizing spaces and tabs: [editorconfig](https://editorconfig.org/)
 - Default integration with [pre-commit](https://github.com/pre-commit/pre-commit)
 - Optional integration with [asdf](https://github.com/asdf-vm/asdf) and [rtx](https://github.com/jdx/rtx) via `.tool_versions` file
+- Optional integration with [Github Actions](https://github.com/features/actions)
 
 ### Quick Start
 
