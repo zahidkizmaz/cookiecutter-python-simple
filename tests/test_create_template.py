@@ -15,6 +15,7 @@ def test_run_cookiecutter_default(cookies):
 
     assert result.project_path.joinpath(".github").is_dir()
     assert result.project_path.joinpath(".github", "PULL_REQUEST_TEMPLATE.md").is_file()
+    assert result.project_path.joinpath(".github", "dependabot.yml").is_file()
     assert (
         result.project_path.joinpath(".github")
         .joinpath("workflows", "ci.yml")
