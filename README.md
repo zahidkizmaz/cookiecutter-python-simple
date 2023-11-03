@@ -47,6 +47,7 @@ python_project
 ├── .editorconfig
 ├── .github
 │   ├── PULL_REQUEST_TEMPLATE.md
+│   ├── dependabot.yml
 │   └── workflows
 │       └── ci.yml
 ├── .gitignore
@@ -56,7 +57,9 @@ python_project
 ├── README.md
 ├── pyproject.toml
 ├── src
-│   └── __init__.py
+│   ├── __init__.py
+│   └── main.py
 └── tests
-    └── __init__.py
+    ├── __init__.py
+    └── test_main.py
 ```
