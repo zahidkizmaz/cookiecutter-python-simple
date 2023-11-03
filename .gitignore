@@ -131,6 +131,7 @@ venv.bak/
 
 # asdf
 .tool_versions
+!{{cookiecutter.project_slug}}/.tool_versions
 
 # Spyder project settings
 .spyderproject
