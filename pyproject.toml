@@ -12,7 +12,10 @@ cookiecutter = "*"
 
 [tool.poetry.group.dev.dependencies]
 black = "*"
+cookiecutter = "*"
 pre-commit = "*"
+pytest = "*"
+pytest-cookies = "*"
 
 [build-system]
 requires = ["poetry-core"]
