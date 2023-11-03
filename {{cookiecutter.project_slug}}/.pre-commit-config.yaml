@@ -18,7 +18,7 @@ repos:
         types:
           - python
       - id: ruff-format
-        name: ruff-format
+        name: ruff format
         entry: ruff format
         language: system
         types:
