@@ -19,7 +19,7 @@ This is a simple python project cookiecutter template suitable for creating read
 Install [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and generate a new python project:
 
 ```bash
-$ cookiecutter https://github.com/zahidkizmaz/cookiecutter-python-simple
+cookiecutter https://github.com/zahidkizmaz/cookiecutter-python-simple
 ```
 
 Cookiecutter prompts you for information regarding your project.
