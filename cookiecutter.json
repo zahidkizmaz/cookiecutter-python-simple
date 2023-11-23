@@ -13,5 +13,8 @@
     "BSD-3",
     "Apache Software License 2.0",
     "GNU General Public License v3.0"
+  ],
+  "_copy_without_render": [
+    ".github/workflows/ci.yml"
   ]
 }
