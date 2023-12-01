@@ -25,3 +25,4 @@ build-backend = "poetry.core.masonry.api"
 preview = true
 line-length = 88
 target-version = ['py312']
+extend-exclude = "{{cookiecutter.project_slug}}/tests"
