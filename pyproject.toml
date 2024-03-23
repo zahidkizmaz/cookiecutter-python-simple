@@ -1,25 +1,18 @@
-[tool.poetry]
+[project]
 name = "cookiecutter-python-simple"
 version = "0.1.0"
 description = "Very simple python project template"
-authors = ["Zahid Kizmaz <tech@zahid.rocks>"]
+authors = [{ name = "Zahid Kizmaz", email = "tech@zahid.rocks" }]
 license = "MIT"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "3.12.2"
-cookiecutter = "*"
-
-[tool.poetry.group.dev.dependencies]
-black = "*"
-cookiecutter = "*"
-pre-commit = "*"
-pytest = "*"
-pytest-cookies = "*"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+dependencies = ["cookiecutter"]
+optional-dependencies.dev = [
+	"black",
+	"cookiecutter",
+	"pre-commit",
+	"pytest",
+	"pytest-cookies",
+]
 
 [tool.black]
 preview = true
