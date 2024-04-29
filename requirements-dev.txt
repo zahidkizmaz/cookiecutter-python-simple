@@ -47,7 +47,7 @@ packaging==24.0
     #   pytest
 pathspec==0.12.1
     # via black
-platformdirs==4.2.0
+platformdirs==4.2.1
     # via
     #   black
     #   virtualenv
