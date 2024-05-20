@@ -56,7 +56,7 @@ pluggy==1.5.0
 pre-commit==3.7.0
 pygments==2.17.2
     # via rich
-pytest==8.1.1
+pytest==8.2.1
     # via pytest-cookies
 pytest-cookies==0.7.0
 python-dateutil==2.9.0.post0
